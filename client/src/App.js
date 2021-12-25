@@ -1,11 +1,16 @@
 
 import './App.css';
+import About from './Components/About';
+import Home from './Components/Home';
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
-    <div>
-    <h1>Mern</h1>
-    </div>
+    <>
+      <Navbar/>
+      <Home/>
+      <About/>
+    </>
   );
 }
 
