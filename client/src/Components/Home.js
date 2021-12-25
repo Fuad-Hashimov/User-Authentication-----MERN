@@ -19,7 +19,7 @@ const Home = () => {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
-              <div className="buttons d-flex justify-content-center">
+              <div className="pb-4 buttons d-flex justify-content-center">
                 <button className="btn btn-light me-4 rounded-pill px-4 py-2">
                   Get Quote
                 </button>
