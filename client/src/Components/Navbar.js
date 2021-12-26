@@ -49,14 +49,20 @@ const Navbar = () => {
             <a href="#" className="navbar-brand fw-bolder fs-4 mx-auto">
               LOGO
             </a>
-            <button className="btn btn-outline-primary ms-auto px-4 rounded-pill">
+            <NavLink
+              to="/login"
+              className="btn btn-outline-primary ms-auto px-4 rounded-pill"
+            >
               <FaSignInAlt className="me-2" />
               Login
-            </button>
-            <button className="btn btn-outline-primary ms-2 px-4 rounded-pill">
+            </NavLink>
+            <NavLink
+              to="/register"
+              className="btn btn-outline-primary ms-2 px-4 rounded-pill"
+            >
               <FaUserPlus className="me-2" />
               Register
-            </button>
+            </NavLink>
           </div>
         </div>
       </nav>

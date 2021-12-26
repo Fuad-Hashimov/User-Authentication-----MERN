@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import About from "./About";
 import Contact from "./Contact";
 import Services from "./Services";
@@ -23,12 +24,18 @@ const Home = () => {
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
               <div className="pb-4 buttons d-flex justify-content-center">
-                <button className="btn btn-light me-4 rounded-pill px-4 py-2">
+                <NavLink
+                  to="contact"
+                  className="btn btn-light me-4 rounded-pill px-4 py-2"
+                >
                   Get Quote
-                </button>
-                <button className="btn btn-outline-light me-4 rounded-pill px-4 py-2">
-                  Get Quote
-                </button>
+                </NavLink>
+                <NavLink
+                  to="services"
+                  className="btn btn-outline-light me-4 rounded-pill px-4 py-2"
+                >
+                  Our Services
+                </NavLink>
               </div>
             </div>
           </div>

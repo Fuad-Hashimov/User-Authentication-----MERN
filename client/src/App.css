@@ -17,6 +17,25 @@
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
+/* Form */
+.form {
+  background: rgb(0, 101, 219);
+  background: linear-gradient(
+    90deg,
+    rgb(0, 101, 219) 50%,
+    #00d4ff 100%
+  );
+}
+
+.footer{
+  background: rgb(0, 101, 219);
+  background: linear-gradient(
+    90deg,
+    rgb(0, 101, 219) 50%,
+    #00d4ff 100%
+  );
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }
