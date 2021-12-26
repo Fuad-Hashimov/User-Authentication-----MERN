@@ -23,34 +23,34 @@ const Contact = () => {
             </div>
             <div className="col-md-6">
               <form action="">
-                <div class="mb-3">
-                  <label for="name" class="form-label">
+                <div className="mb-3">
+                  <label htmlFor="name" className="form-label">
                     Your Name
                   </label>
                   <input
                     type="text"
-                    class="form-control"
+                    className="form-control"
                     id="name"
                     placeholder="John Smith"
                   />
                 </div>
-                <div class="mb-3">
-                  <label for="email" class="form-label">
+                <div className="mb-3">
+                  <label htmlFor="email" className="form-label">
                     Email address
                   </label>
                   <input
                     type="email"
-                    class="form-control"
+                    className="form-control"
                     id="email"
                     placeholder="name@example.com"
                   />
                 </div>
-                <div class="mb-3">
-                  <label for="message" class="form-label">
+                <div className="mb-3">
+                  <label htmlFor="message" className="form-label">
                     Your Message
                   </label>
                   <textarea
-                    class="form-control"
+                    className="form-control"
                     id="message"
                     rows="5"
                   ></textarea>

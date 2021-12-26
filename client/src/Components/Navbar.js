@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import { FaSignInAlt, FaUserPlus } from "react-icons/fa";
 
 const Navbar = () => {
@@ -20,24 +21,29 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <NavLink
+                  to="/"
+                  className="nav-link active"
+                  aria-current="page"
+                  href="#"
+                >
                   Home
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <NavLink to="/services" className="nav-link" href="#">
                   Services
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <NavLink to="about" className="nav-link" href="#">
                   About
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <NavLink to="contact" className="nav-link" href="#">
                   Contact
-                </a>
+                </NavLink>
               </li>
             </ul>
             <a href="#" className="navbar-brand fw-bolder fs-4 mx-auto">
